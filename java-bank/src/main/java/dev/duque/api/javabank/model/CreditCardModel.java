@@ -19,9 +19,9 @@ public class CreditCardModel {
     @Column(nullable = false)
     private String acquirer;
     @Column(nullable = false)
-    private Short expirationMounth;
+    private Integer expirationMounth;
     @Column(nullable = false)
-    private Short expirationYear;
+    private Integer expirationYear;
     @Column(nullable = false, columnDefinition = "boolean default true")
     private Boolean isActive;
     @Column(nullable = false)
@@ -63,19 +63,19 @@ public class CreditCardModel {
         this.acquirer = acquirer;
     }
 
-    public Short getExpirationMounth() {
+    public int getExpirationMounth() {
         return expirationMounth;
     }
 
-    public void setExpirationMounth(Short expirationMounth) {
+    public void setExpirationMounth(Integer expirationMounth) {
         this.expirationMounth = expirationMounth;
     }
 
-    public Short getExpirationYear() {
+    public int getExpirationYear() {
         return expirationYear;
     }
 
-    public void setExpirationYear(Short expirationYear) {
+    public void setExpirationYear(Integer expirationYear) {
         this.expirationYear = expirationYear;
     }
 

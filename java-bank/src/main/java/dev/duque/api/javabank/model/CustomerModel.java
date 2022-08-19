@@ -21,7 +21,7 @@ public class CustomerModel implements Serializable {
     @Column(nullable = false)
     private Long income;
     @Column(nullable = false)
-    private Long limit;
+    private Long personalLimit;
     @Column(nullable = false)
     private Long balance;
     @Column(nullable = false, columnDefinition = "boolean default true")
@@ -64,12 +64,12 @@ public class CustomerModel implements Serializable {
         this.income = income;
     }
 
-    public Long getLimit() {
-        return limit;
+    public Long getPersonalLimit() {
+        return personalLimit;
     }
 
-    public void setLimit(Long limit) {
-        this.limit = limit;
+    public void setPersonalLimit(Long personalLimit) {
+        this.personalLimit = personalLimit;
     }
 
     public Long getBalance() {

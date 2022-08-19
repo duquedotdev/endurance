@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
         ApiInfo apiInfo = new ApiInfo(
-                "Parking Spot Api", "CRUD em Spring Boot", "1.0", null,
+                "Java Bank Api", "CRUD em Spring Boot", "1.0", null,
                 new Contact("Felipe Souza França Duque", "https://github.com/duquedotdev", "felipe@duque.dev"),
                 null, null, new ArrayList<VendorExtension>()
         );
