@@ -7,9 +7,6 @@ public class CreditCardDTO {
     @NotBlank
     private String name;
     @NotBlank
-    @Size(min = 16, max = 16)
-    private Long number;
-    @NotBlank
     private String acquirer;
     @NotBlank
     @Size(min = 1, max = 2)
@@ -26,14 +23,6 @@ public class CreditCardDTO {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Long getNumber() {
-        return number;
-    }
-
-    public void setNumber(Long number) {
-        this.number = number;
     }
 
     public String getAcquirer() {

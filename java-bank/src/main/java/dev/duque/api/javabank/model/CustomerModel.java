@@ -1,5 +1,7 @@
 package dev.duque.api.javabank.model;
 
+import org.springframework.data.jpa.repository.Lock;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -34,6 +36,9 @@ public class CustomerModel implements Serializable {
     private LocalDateTime updatedAt;
     @Column(nullable = true)
     private LocalDateTime deletedAt;
+
+    @ManyToOne
+    public CreditCardModel creditCard;
 
     public UUID getId() {
         return id;
@@ -121,6 +126,14 @@ public class CustomerModel implements Serializable {
 
     public void setDeletedAt(LocalDateTime deletedAt) {
         this.deletedAt = deletedAt;
+    }
+
+    public CreditCardModel getCreditcard() {
+        return creditCard;
+    }
+
+    public void setCreditcard(CreditCardModel creditCard) {
+        this.creditCard = creditCard;
     }
 
 

@@ -4,8 +4,10 @@ import dev.duque.api.javabank.model.CreditCardModel;
 import dev.duque.api.javabank.repositories.CreditCardRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.Lock;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.LockModeType;
 import javax.transaction.Transactional;
 import java.util.Optional;
 import java.util.UUID;
@@ -24,11 +26,8 @@ public class CreditCardService {
         return creditCardRepository.save(creditCardModel);
     }
 
-    public Page<CreditCardModel> findAll(Pageable pageable) {
-        return creditCardRepository.findAll(pageable);
-    }
-
-    public Optional<CreditCardModel> findById(UUID id) {
+    @Lock(LockModeType.PESSIMISTIC_READ)
+    public Optional<CreditCardModel> findByIdWithLock(UUID id) {
         return creditCardRepository.findById(id);
     }
 

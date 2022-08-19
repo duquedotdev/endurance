@@ -9,14 +9,13 @@ import java.util.UUID;
 @Table(name = "TB_CREDIT_CARD")
 public class CreditCardModel {
     private static final long serialVersionUID = 1L;
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     @Column(nullable = false, unique = true, length = 50)
     private String name;
     @Column(nullable = false)
-    private Long number;
+    private String number;
     @Column(nullable = false)
     private String acquirer;
     @Column(nullable = false)
@@ -48,11 +47,11 @@ public class CreditCardModel {
         this.name = name;
     }
 
-    public Long getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(Long number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 
