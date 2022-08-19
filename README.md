@@ -1,3 +1,21 @@
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+
+## #Tô com pressa, Felipe! (para TechRecruiters e TechLeads)
+Eu sei que você tem centenas de candidatos para analisar. Então vou ser rápido e sucinto. Este projeto busca mostrar todo meu potencial como desenvolvedor, e é o reflexo de toda a experiência que adquiri até aqui. Ele é uma estrutura de fluxo de pagamento, que é o que acontece por debaixo dos panos entre uma a empresa da maquininha de cartão de crédito, a bandeira do cartão e o banco emissor. 
+
+Se tiver tempo, minha trajetória resumida está abaixo. Gostou do projeto? Tá afim de bater um papo? Me chama no [LinkedIn](https://www.linkedin.com/in/duquedotdev/). 
+
+Ah! Aproveita e conheça [meu novo site](https://duque.dev).
+
 ## Sobre Mim
 
 Olá! Meu nome é Felipe Duque, sou brasileiro, tenho 29 anos e sou desenvolvedor backend em algumas linguagens. Entre elas, Java, Kotlin, Node.js, Python, e a mais recente, Golang <3. Desde 2019 estudo exclusivamente programação, no entando, minhas aventuras computacionais começaram anos antes.
